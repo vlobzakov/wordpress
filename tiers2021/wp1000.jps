@@ -93,7 +93,7 @@ onInstall:
         cdn-addon: ${settings.cdn-addon}
         mu-addon: ${settings.mu-addon}
         galera: true
-        glusterfs: false
+        glusterfs: true
         is_trigger: ${settings.horizontal}
         loadGrowth: fast
         cp_count: 5
